@@ -1,0 +1,8 @@
+{
+  "name": "Mensch Labs coding challenge template",
+  "description": "A template for the Mensch Labs coding challenge",
+  "repository": "https://github.com/menschlabs/coding-challenge-template",
+  "image": "heroku/python",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}
