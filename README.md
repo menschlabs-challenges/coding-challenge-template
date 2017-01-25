@@ -103,14 +103,14 @@ To set up your local development environment to make changes to the app, go
 ahead and install the following software:
 
 - Python 2.7 (If you'd rather use Python 3, feel free to try it, but you'll
-  likely have to make changes to the code in order to get it to run, so it'
+  likely have to make changes to the code in order to get it to run, so it's
   probably not recommended unless you know what you're doing.)
 - git
 - postgresql: A database backend we'll use.
 - ngrok: A handy tool to expose your local development server to the outside
   world.
 
-If you're on a Mac, we recommend installing all of these via homebrew:
+If you're on a Mac, we recommend installing all of these via (homebrew)[http://brew.sh/]:
 
 ```
 $ brew install python git postgresql
@@ -145,7 +145,7 @@ If you see a line with `/some/path/bin/postgres` in it, you're good to
 go. Otherwise, start the server using `pg_ctl -D /usr/local/var/postgres -l
 logfile start`. If you installed via homebrew or a package manager on Linux, you
 might want to follow their corresponding instructions instead (With Homebrew,
-you can typicall start the server via launchctl using
+you can typically start the server via launchctl using
 [these instructions](http://stackoverflow.com/a/23628638/4946850)).
 
 Once the server is up and running, make sure there is a database corresponding
@@ -268,3 +268,5 @@ This will push your current master branch to the remote `heroku`, which will
 trigger the application build process on Heroku's end. Once the command
 completes, your updated code should be running. You can use `heroku logs --tail`
 to see updated server logs, which will include anything you print to stdout.
+
+Now you should be all set up and ready for the coding challenge coming your way soon!
