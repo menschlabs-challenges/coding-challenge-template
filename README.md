@@ -1,7 +1,6 @@
 # Mensch Labs Coding Challenge
 
-This is a skeleton repository that contains some example code, which
-demonstrates the following:
+Welcome to the Mensch Labs Coding Challenge Setup Guide! At the end of this guide you will have deployed a real-world Facebook Messenger Bot that you (and others) can start talking to and experimenting with. You'll also be ready to complete the Mensch Labs Coding Challenge! This skeleton repository contains some example code, which demonstrates the following:
 
 * How to render HTML pages using the [Flask](http://flask.pocoo.org/) framework.
 * How to create database models, populate them with data, and query them using
