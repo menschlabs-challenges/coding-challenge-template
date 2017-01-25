@@ -1,5 +1,6 @@
 from app import Address, User, db
 
+db.drop_all()
 db.create_all()
 
 admin = User(username='admin')
