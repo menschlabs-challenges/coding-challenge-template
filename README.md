@@ -3,16 +3,19 @@
 ## Initial Setup
 
 - Sign up for an account with [Heroku](https://heroku.com) if you don't already
-have one, and log into the account. Also consider installing the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and
-log into the same account.
+have one, and log into the account. Also consider installing the
+[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and log into the
+same account.
 
 - Click this button to deploy this repo as an app to Heroku:
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy).
-  Remember your app name, you'll need it later.
+  Pick an app name (e.g., `YOURNAME-ml-cc` or something similar), and remember
+  it for later. Wait for the build and deployment process to finish (this will
+  take a few minutes).
 
 - Once the app is up and running, go to its root URL
-  [https://YOUR-APP-NAME.herokuapp.com](https://YOUR-APP-NAME.herokuapp.com) to test that it works as expected. You
-  should see a list of users and addresses.
+  [https://YOUR-APP-NAME.herokuapp.com](https://YOUR-APP-NAME.herokuapp.com) to
+  test that it works as expected. You should see a list of users and addresses.
 
 - Likewise, navigate to `/fb_webhook` on the same app. You should see a blank
   page.
