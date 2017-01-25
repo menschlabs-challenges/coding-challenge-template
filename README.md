@@ -110,7 +110,7 @@ ahead and install the following software:
 - ngrok: A handy tool to expose your local development server to the outside
   world.
 
-If you're on a Mac, we recommend installing all of these via (homebrew)[http://brew.sh/]:
+If you're on a Mac, we recommend installing all of these via [Homebrew](http://brew.sh/):
 
 ```
 $ brew install python git postgresql
