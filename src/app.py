@@ -2,6 +2,7 @@
 Flask Documentation:     http://flask.pocoo.org/docs/
 Flask-SQLAlchemy Documentation: http://flask-sqlalchemy.pocoo.org/
 SQLAlchemy Documentation: http://docs.sqlalchemy.org/
+FB Messenger Platform docs: https://developers.facebook.com/docs/messenger-platform.
 
 This file creates your application.
 """
@@ -26,7 +27,6 @@ app.config['FACEBOOK_WEBHOOK_VERIFY_TOKEN'] = 'mysecretverifytoken'
 
 
 db = SQLAlchemy(app)
-
 
 
 class User(db.Model):

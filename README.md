@@ -1,5 +1,23 @@
 # Mensch Labs Coding Challenge
 
+This is a skeleton repository that contains some example code, which
+demonstrates the following:
+
+* How to render HTML pages using the [Flask](http://flask.pocoo.org/) framework.
+* How to create database models, populate them with data, and query them using
+[SQLAlchemy](http://www.sqlalchemy.org/) and
+[Flask's SQLAlchemy extension](http://flask-sqlalchemy.pocoo.org/).
+* How to handle incoming webhook requests from
+  [Facebook's Messenger Platform](https://developers.facebook.com/docs/messenger-platform)
+  and send messages back.
+* The repository also contains the relevant configuration files to make it easy
+to deploy the app to Heroku.
+
+We will use this repository as a starting point for the actual coding
+challenge. Please make sure to go through the setup steps outlined below to make
+sure you have a working development environment ahead of the actual code
+challenge, and please don't hesitate to contact us if you run into any issues.
+
 ## Initial Setup
 
 - Sign up for an account with [Heroku](https://heroku.com) if you don't already
