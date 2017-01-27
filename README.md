@@ -57,7 +57,9 @@ same account.
   - Callback URL: "https://YOUR-APP-NAME.herokuapp.com/fb_webhook" (without the
     quotes).
   - Verify Token: "mysecretverifytoken" (without the quotes). This is currently
-  hardcoded in the actual app code, so needs to be entered exactly like this.
+  hardcoded in the actual app code, so needs to be entered exactly like
+  this. THIS IS DIFFERENT FROM THE PAGE ACCESS TOKEN GENERATED ABOVE. DO NOT
+  PASTE THE PAGE ACCESS TOKEN HERE.
   - Subscription Fields: Select everything here. To start with, we only need
     "messages", but you never know what else you might want to do with this
     later... ;)
