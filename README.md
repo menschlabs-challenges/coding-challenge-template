@@ -1,6 +1,15 @@
 # Mensch Labs Coding Challenge
 
-Welcome to the Mensch Labs Coding Challenge Setup Guide! At the end of this guide you will have deployed a real-world Facebook Messenger Bot that you (and others) can start talking to and experimenting with. You'll also be ready to complete the Mensch Labs Coding Challenge! This skeleton repository contains some example code, which demonstrates the following:
+Welcome to the Mensch Labs Coding Challenge Setup Guide! At the end of this
+guide you will have deployed a real-world Facebook Messenger Bot that you can
+start talking to and experimenting with. You'll also be ready to complete the
+Mensch Labs Coding Challenge!
+
+While the choice of languages and frameworks that you use for the challenge is
+up to you, we decided to make it easier to get started by providing a skeleton
+app that demonstrates how to build a simple Python web app that responds to
+incoming requests and interfaces with Facebook's Messenger API. This skeleton
+repository contains some example code, which demonstrates the following:
 
 * How to render HTML pages using the [Flask](http://flask.pocoo.org/) framework.
 * How to create database models, populate them with data, and query them using
@@ -10,19 +19,24 @@ Welcome to the Mensch Labs Coding Challenge Setup Guide! At the end of this guid
   [Facebook's Messenger Platform](https://developers.facebook.com/docs/messenger-platform)
   and send messages back.
 * The repository also contains the relevant configuration files to make it easy
-to deploy the app to Heroku.
+to deploy the app to Heroku. You are free to use any other hosting platform for
+your bot, but it will need to be publicly accessible on the internet for it to
+work, and Heroku is an easy platform to get started on.
 
 We will use this repository as a starting point for the actual coding
-challenge. Please make sure to go through the setup steps outlined below to make
-sure you have a working development environment ahead of the actual code
-challenge, and please don't hesitate to contact us if you run into any issues.
+challenge. Even if you decide to use a different set of frameworks, it might
+still make sense to go through the initial setup steps outlined below to
+understand how to connect to Facebook Messenger and how to expose your
+development server to the internet for testing during development.
 
 ## Initial Setup
 
 - Sign up for an account with [Heroku](https://heroku.com) if you don't already
 have one, and log into the account. Also consider installing the
 [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and log into the
-same account.
+same account (If you intend to use a different hosting platform, feel free to
+skip all Heroku-specific steps and follow the instructions for deploying to your
+platform instead).
 
 - Click this button to deploy this repo as an app to Heroku:
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy).
