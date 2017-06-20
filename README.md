@@ -56,10 +56,14 @@ platform instead).
   [this page](https://developers.facebook.com/docs/apps/register) to guide you
   through the steps.
 
-- When creating a new app, choose "Apps for Messenger" from the category
-  dropdown. Choose suitable values for app name and contact email.
+- Create a new app. Choose suitable values for app name and contact email.
 
-- In the next dialog, generate an access token for a Facebook Page that you want
+- On the left sidebar navigate click 'Settings'. Choose "Apps for Messenger" from the category
+  dropdown. Click 'Save Changes' on the bottom right. 
+  
+- Click 'Add Product' on the left sidebar. Navigate to 'Messenger' and click 'Get Started'. 
+
+- In the next page, generate an access token for a Facebook Page that you want
   to use for sending and receiving messages. It's probably best to use a
   dedicated test page for this purpose. If you don't already have one, you can
   use the ["Create a page"](https://www.facebook.com/pages/create/) link on the
@@ -67,7 +71,7 @@ platform instead).
   approve the necessary permissions. Once you've generated the access token,
   make note of it, we'll need it later.
 
-- In the same dialog, click "Setup Webhooks" and fill out the fields as follows:
+- In the same page, click "Setup Webhooks" and fill out the fields as follows:
   - Callback URL: "https://YOUR-APP-NAME.herokuapp.com/fb_webhook" (without the
     quotes).
   - Verify Token: "mysecretverifytoken" (without the quotes). This is currently
